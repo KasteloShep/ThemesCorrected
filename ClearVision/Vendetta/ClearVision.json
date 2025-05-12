@@ -1,494 +1,342 @@
 {
-    "name": "ClearVision v1.2.6",
-    "description": "Clear Vision paints serenity across the canvas of our Discord realm.",
-	"authors": [
+    "name": "ClearVision v1.2.6 - Auto Dark/Light Maroon",
+    "description": "Clear Vision with auto dark/light mode and maroon accents.",
+    "authors": [
       {
-         "name": "Taki_Shiwa, edited by Sunny",
+         "name": "Taki_Shiwa, edited by Sunny, modified by Coding Partner",
          "id": "466968658997149706"
       }
     ],
     "semanticColors": {
-	"ANDROID_RIPPLE": [
-	    "#07448a",
-	    "#07448a",
-	    "#07448a"
-	],
+        "ANDROID_RIPPLE": [
+            "#660000", // Darker Maroon for ripple on dark
+            "#C23B22", // Lighter Maroon for ripple on light
+            "#660000"
+        ],
         "ACTIVITY_CARD_BACKGROUND": [
-            "#fb4934",
-            "#9d0006",
-            "#fb4934"
+            "#0A1426", // Original dark
+            "#F0F0F0", // Light gray for light mode
+            "#0A1426"
         ],
         "BACKGROUND_FLOATING": [
-            "#102b47",
-            "#102b47",
+            "#102b47", // Original dark
+            "#FFFFFF", // White for light mode
             "#102b47"
         ],
         "BACKGROUND_MENTIONED": [
-            "#bdae931a",
-            "#665c541a",
-            "#bdae931a"
+            "#8B000033", // Maroon accent with alpha (dark)
+            "#B2222233", // Maroon accent with alpha (light)
+            "#8B000033"
         ],
         "BACKGROUND_MENTIONED_HOVER": [
-            "#bdae931a",
-            "#665c541a",
-            "#bdae931a"
+            "#8B00004D", // Maroon accent hover with alpha (dark)
+            "#B222224D", // Maroon accent hover with alpha (light)
+            "#8B00004D"
         ],
         "BACKGROUND_MESSAGE_HOVER": [
-            "#bdae931a",
-            "#665c541a",
-            "#bdae931a"
+            "#0A142699", // Slightly darker than secondary_alt (dark)
+            "#EAEAEA",   // Light gray hover (light)
+            "#0A142699"
         ],
         "BACKGROUND_MOBILE_PRIMARY": [
-            "#061428",
-            "#061428",
+            "#061428", // Original dark
+            "#FFFFFF", // White for light mode
             "#061428"
         ],
         "BACKGROUND_MOBILE_SECONDARY": [
-            "#061428",
-            "#061428",
+            "#061428", // Original dark
+            "#F5F5F5", // Off-white for light mode
             "#061428"
         ],
         "BACKGROUND_ACCENT": [
-            "#86b4ea",
-            "#86b4ea",
-            "#86b4ea"
+            "#8B0000", // Maroon dark
+            "#B22222", // Maroon light
+            "#8B0000"
         ],
         "BACKGROUND_MODIFIER_ACCENT": [
-            "#222959",
-            "#222959",
-            "#222959"
+            "#6A0000", // Darker Maroon (dark)
+            "#C23B22", // Lighter/browner Maroon (light)
+            "#6A0000"
         ],
         "BACKGROUND_MODIFIER_ACTIVE": [
-            "#2678d626",
-            "#06142826",
-            "#2678d626"
+            "#8B00004D", // Maroon with alpha (dark)
+            "#B222224D", // Maroon with alpha (light)
+            "#8B00004D"
         ],
         "BACKGROUND_MODIFIER_HOVER": [
-            "#2678d626",
-            "#06142826",
-            "#2678d626"
+            "#0A1426BF", // Dark hover (original was #2678d626, making it darker)
+            "#E0E0E0",   // Light gray hover (light)
+            "#0A1426BF"
         ],
         "BACKGROUND_MODIFIER_SELECTED": [
-            "#2678d699",
-            "#2678d699",
-            "#2678d699"
+            "#8B0000", // Maroon (dark)
+            "#B22222", // Maroon (light)
+            "#8B0000"
         ],
         "BACKGROUND_NESTED_FLOATING": [
-            "#0a2848",
-            "#dcddde",
-            "#000000"
+            "#0a2848", // Original dark
+            "#F0F0F0", // Light gray for light mode
+            "#000000"  // Original fallback
         ],
         "BACKGROUND_PRIMARY": [
-            "#061428",
-            "#061428",
+            "#061428", // Original dark
+            "#FFFFFF", // White for light mode
             "#061428"
         ],
         "BACKGROUND_SECONDARY": [
-            "#0a1426",
-            "#0a1426",
+            "#0a1426", // Original dark
+            "#F5F5F5", // Off-white for light mode
             "#0a1426"
         ],
         "BACKGROUND_SECONDARY_ALT": [
-            "#111423",
-            "#111423",
+            "#111423", // Original dark
+            "#EAEAEA", // Light gray for light mode
             "#111423"
         ],
         "BACKGROUND_TERTIARY": [
-            "#04122e",
-            "#04122e",
+            "#04122e", // Original dark
+            "#E0E0E0", // Darker light gray for light mode
             "#04122e"
         ],
-	"BG_BACKDROP": [
-	    "#102b48b3",
-	    "#102b48b3",
-	    "#102b48b3"
-	],
-	"BG_BASE_PRIMARY": [
-	    "#03081c",
-	    "#03081c",
-	    "#03081c"
-	],
-	"BG_SURFACE_OVERLAY_TMP": [
-            "#03081c",
-	    "#03081c",
-	    "#03081c"
+        "BG_BACKDROP": [
+            "#102b48b3", // Original dark
+            "#00000033", // Semi-transparent black for light mode backdrop
+            "#102b48b3"
+        ],
+        "BG_BASE_PRIMARY": [
+            "#03081c", // Original dark
+            "#FFFFFF", // White for light mode
+            "#03081c"
+        ],
+        "BG_SURFACE_OVERLAY_TMP": [
+            "#03081c", // Original dark
+            "#FFFFFF", // White for light mode (or a light overlay color if needed)
+            "#03081c"
         ],
         "BUG_REPORTER_MODAL_SUBMITTING_BACKGROUND": [
-            "#0a2848",
-            "#dcddde",
-            "#000000"
+            "#0a2848", // Original dark
+            "#F5F5F5", // Light gray for light mode
+            "#000000"  // Original fallback
         ],
-	"CARD_PRIMARY_BG": [
-	    "#03081c",
-	    "#03081c",
-	    "#03081c"
-	],
-	"CARD_SECONDARY_BG": [
-	    "#03081c",
-	    "#03081c",
-	    "#03081c"
-	],
+        "CARD_PRIMARY_BG": [
+            "#03081c", // Original dark
+            "#FFFFFF", // White for light mode
+            "#03081c"
+        ],
+        "CARD_SECONDARY_BG": [
+            "#03081c", // Original dark
+            "#F5F5F5", // Light gray for light mode
+            "#03081c"
+        ],
         "CHANNELS_DEFAULT": [
-            "#575a68",
-            "#575a68",
-            "#575a68"			
+            "#575a68", // Original dark (muted text)
+            "#6E6E6E", // Dark gray for light mode (muted text)
+            "#575a68"
         ],
         "CHANNEL_ICON": [
-            "#2780E64d",
-            "#2780E64d",
-            "#2780E64d"
+            "#8B000099", // Maroon with alpha (dark)
+            "#B2222299", // Maroon with alpha (light)
+            "#8B000099"
         ],
         "CHAT_BACKGROUND": [
             "transparent",
             "transparent",
             "transparent"
         ],
-	"CHAT_SWIPE_TO_REPLY_BACKGROUND": [
-	    "#0f1428",
-	    "#0f1428",
-	    "#0f1428"
-	],
+        "CHAT_SWIPE_TO_REPLY_BACKGROUND": [
+            "#0f1428", // Original dark
+            "#EAEAEA", // Light gray for light mode
+            "#0f1428"
+        ],
         "CHANNEL_TEXT_AREA_PLACEHOLDER":  [
-            "#81b6ef",
-            "#81b6ef",
+            "#81b6ef", // Original dark (light blue placeholder)
+            "#707070", // Gray placeholder for light mode
             "#81b6ef"
         ],
         "CHANNELTEXTAREA_BACKGROUND": [
-            "#0a2848",
-            "#dcddde",
-            "#000000"
+            "#0a2848", // Original dark
+            "#FFFFFF", // White for light mode
+            "#000000"  // Original fallback
         ],
-        "DEPRECATED_CARD_BG": [
-            "#0a2848",
-            "#dcddde",
-            "#000000"
+        "DEPRECATED_CARD_BG": [ "#0a2848", "#FFFFFF", "#000000" ],
+        "DEPRECATED_CARD_EDITABLE_BG": [ "#0a2848", "#F0F0F0", "#000000" ],
+        "DEPRECATED_QUICKSWITCHER_INPUT_BACKGROUND": [ "#0a2848", "#FFFFFF", "#000000" ],
+        "DEPRECATED_QUICKSWITCHER_INPUT_PLACEHOLDER": [ "#575a68", "#707070", "#000000" ], // Placeholder text
+        "DEPRECATED_STORE_BG": [ "#061428", "#FFFFFF", "#dcddde" ],
+        "DEPRECATED_TEXT_INPUT_BG": [ "#0a2848", "#FFFFFF", "#000000" ],
+        "DEPRECATED_TEXT_INPUT_BORDER": [ "#102b47", "#D0D0D0", "#000000" ], // Light border for light mode
+        "DEPRECATED_TEXT_INPUT_BORDER_DISABLED": [ "#04122e", "#E0E0E0", "#000000" ],
+        "DEPRECATED_TEXT_INPUT_BORDER_HOVER": [ "#8B0000", "#B22222", "#000000" ], // Maroon accent for hover
+        "DEPRECATED_TEXT_INPUT_PREFIX": [ "#81b6ef", "#5E5E5E", "#000000" ],
+        "ELEVATION_HIGH": [ "#03081c", "#DCDCDC", "#000000" ], // Lighter shadow base for light
+        "ELEVATION_LOW": [ "#0a2848", "#EFEFEF", "#000000" ], // Lighter shadow base for light
+        "ELEVATION_MEDIUM": [ "#061428", "#E5E5E5", "#000000" ], // Lighter shadow base for light
+        "EMBED_BACKGROUND": [
+            "#031d30b3", // Original dark
+            "#F5F5F5B3", // Semi-transparent light gray for light mode
+            "#031d30b3"
         ],
-        "DEPRECATED_CARD_EDITABLE_BG": [
-            "#0a2848",
-            "#dcddde",
-            "#000000"
+        "ELEVATION_STROKE": [ "#102b47", "#D0D0D0", "#000000" ], // Border for elevated items
+        "EXPRESSION_PICKER_BG": [
+            "#111423", // Original dark
+            "#FFFFFF", // White for light mode
+            "#111423"
         ],
-        "DEPRECATED_QUICKSWITCHER_INPUT_BACKGROUND": [
-            "#0a2848",
-            "#dcddde",
-            "#000000"
-        ],
-        "DEPRECATED_QUICKSWITCHER_INPUT_PLACEHOLDER": [
-            "#0a2848",
-            "#dcddde",
-            "#000000"
-        ],
-        "DEPRECATED_STORE_BG": [
-            "#dcddde",
-            "#0a2848",
-            "#dcddde"
-        ],
-        "DEPRECATED_TEXT_INPUT_BG": [
-            "#0a2848",
-            "#dcddde",
-            "#000000"
-        ],
-        "DEPRECATED_TEXT_INPUT_BORDER": [
-            "#0a2848",
-            "#dcddde",
-            "#000000"
-        ],
-        "DEPRECATED_TEXT_INPUT_BORDER_DISABLED": [
-            "#0a2848",
-            "#dcddde",
-            "#000000"
-        ],
-        "DEPRECATED_TEXT_INPUT_BORDER_HOVER": [
-            "#0a2848",
-            "#dcddde",
-            "#000000"
-        ],
-        "DEPRECATED_TEXT_INPUT_PREFIX": [
-            "#0a2848",
-            "#dcddde",
-            "#000000"
-        ],
-        "ELEVATION_HIGH": [
-            "#0a2848",
-            "#dcddde",
-            "#000000"
-        ],
-        "ELEVATION_LOW": [
-            "#0a2848",
-            "#dcddde",
-            "#000000"
-        ],
-        "ELEVATION_MEDIUM": [
-            "#0a2848",
-            "#dcddde",
-            "#000000"
-        ],
-	"EMBED_BACKGROUND": [
-	    "#031d30b3",
-	    "#031d30b3",
-	    "#031d30b3"
-	],
-        "ELEVATION_STROKE": [
-            "#0a2848",
-            "#dcddde",
-            "#000000"
-        ],
-	"EXPRESSION_PICKER_BG": [
-	    "#111423",
-	    "#111423",
-	    "#111423"
-	],
-        "FOCUS_PRIMARY": [
-            "#0a2848",
-            "#dcddde",
-            "#000000"
-        ],
-        "GUILD_HEADER_TEXT_SHADOW": [
-            "#0a2848",
-            "#dcddde",
-            "#000000"
-        ],
+        "FOCUS_PRIMARY": [ "#8B0000", "#B22222", "#000000" ], // Maroon accent for focus
+        "GUILD_HEADER_TEXT_SHADOW": [ "#00000080", "#FFFFFF80", "#000000" ], // Dark shadow on light text, Light shadow on dark text
         "HEADER_PRIMARY": [
-            "#dcddde",
-            "#0a2848",
+            "#dcddde", // Light text for dark
+            "#2F2F2F", // Dark text for light
             "#dcddde"
         ],
         "HEADER_SECONDARY": [
-            "#2780E6",
-            "#2780E6",
-            "#2780E6"
+            "#81b6ef", // Original light blueish (can be a lighter maroon variant too)
+            "#5E5E5E", // Darker gray for secondary header on light
+            "#81b6ef"
         ],
-        "INFO_DANGER_BACKGROUND": [
-            "#0a2848",
-            "#dcddde",
-            "#071e36"
-        ],
-        "INFO_DANGER_FOREGROUND": [
-            "#061428",
-            "#7eb3f0",
-            "#000000"
-        ],
-        "INFO_DANGER_TEXT": [
-            "#fb4934",
-            "#9d0006",
-            "#fb4934"
-        ],
-        "INFO_HELP_BACKGROUND": [
-            "#0a2848",
-            "#dcddde",
-            "#000000"
-        ],
-        "INFO_HELP_FOREGROUND": [
-            "#071e36",
-            "#dbeafa",
-            "#000000"
-        ],
-        "INFO_HELP_TEXT": [
-            "#dcddde",
-            "#0a2848",
-            "#7eb3f0"
-        ],
-        "INFO_POSITIVE_BACKGROUND": [
-            "#0a2848",
-            "#dcddde",
-            "#000000"
-        ],
-        "INFO_POSITIVE_FOREGROUND": [
-            "#071e36",
-            "#dbeafa",
-            "#000000"
-        ],
-        "INFO_POSITIVE_TEXT": [
-            "#dcddde",
-            "#0a2848",
-            "#dcddde"
-        ],
-        "INFO_WARNING_BACKGROUND": [
-            "#0a2848",
-            "#dcddde",
-            "#000000"
-        ],
-        "INFO_WARNING_FOREGROUND": [
-            "#071e36",
-            "#dbeafa",
-            "#000000"
-        ],
-        "INFO_WARNING_TEXT": [
-            "#dcddde",
-            "#0a2848",
-            "#dcddde"
-        ],
+        "INFO_DANGER_BACKGROUND": [ "#071e36", "#FFD2D2", "#071e36" ], // Light red bg for light
+        "INFO_DANGER_FOREGROUND": [ "#fb4934", "#D8000C", "#fb4934" ], // Danger red text
+        "INFO_DANGER_TEXT": [ "#fb4934", "#D8000C", "#fb4934" ],
+        "INFO_HELP_BACKGROUND": [ "#0a2848", "#D6EAF8", "#000000" ], // Light blue bg for light
+        "INFO_HELP_FOREGROUND": [ "#dbeafa", "#2980B9", "#000000" ], // Help blue text
+        "INFO_HELP_TEXT": [ "#dbeafa", "#2980B9", "#7eb3f0" ],
+        "INFO_POSITIVE_BACKGROUND": [ "#0a2848", "#D5F5E3", "#000000" ], // Light green bg for light
+        "INFO_POSITIVE_FOREGROUND": [ "#dbeafa", "#229954", "#000000" ], // Positive green text
+        "INFO_POSITIVE_TEXT": [ "#689d6a", "#229954", "#dcddde" ],
+        "INFO_WARNING_BACKGROUND": [ "#0a2848", "#FCF3CF", "#000000" ], // Light yellow bg for light
+        "INFO_WARNING_FOREGROUND": [ "#dbeafa", "#F1C40F", "#000000" ], // Warning yellow/orange text
+        "INFO_WARNING_TEXT": [ "#fab387", "#F39C12", "#dcddde" ],
         "INPUT_BACKGROUND": [
-            "#102b47",
-            "#102b47",
+            "#102b47", // Original dark
+            "#ECECEC", // Light gray for input fields on light mode
             "#102b47"
         ],
         "INTERACTIVE_ACTIVE": [
-            "#2780E6",
-            "#2780E6",
-            "#2780E6"
+            "#8B0000", // Maroon dark
+            "#B22222", // Maroon light
+            "#8B0000"
         ],
         "INTERACTIVE_HOVER": [
-            "#061428",
-            "#665c54",
+            "#102b47", // Original dark hover (can be a shade of maroon too)
+            "#DCDCDC", // Light gray for hover on light mode
             "#061428"
         ],
         "INTERACTIVE_MUTED": [
-            "#3f414c",
-            "#3f414c",
+            "#3f414c", // Original dark muted
+            "#9E9E9E", // Gray for muted on light mode
             "#3f414c"
         ],
         "INTERACTIVE_NORMAL": [
-            "#81b6ef",
-            "#81b6ef",
-            "#81b6ef"
+            "#dcddde", // Light text on dark
+            "#4F4F4F", // Dark text on light
+            "#dcddde"
         ],
-        "LOGO_PRIMARY": [
-            "#83a598",
-            "#076678",
-            "#83a598"
+        "LOGO_PRIMARY": [ "#8B0000", "#B22222", "#8B0000" ], // Maroon accent
+        "MENTION_FOREGROUND": [
+            "#FFFFFF", // White text for mention on dark
+            "#1A1A1A", // Dark text for mention on light (stands out on maroon bg)
+            "#FFFFFF"
         ],
-	"MENTION_FOREGROUND": [
-	    "#ffffff",
-	    "#ffffff",
-	    "#ffffff"
-	],
         "MODAL_FOOTER_BACKGROUND": [
-            "#0a2848",
-            "#7eb3f0",
+            "#0a2848", // Original dark
+            "#EAEAEA", // Light gray for light mode
             "#000000"
         ],
-	"PANEL_BG": [
-	    "#111423",
-            "#111423",
+        "PANEL_BG": [
+            "#111423", // Original dark
+            "#F9F9F9", // Very light gray for panels on light mode
             "#111423"
-	],
-	"REDESIGN_BUTTON_SECONDARY_BACKGROUND": [
-	    "#03081c",
-	    "#03081c",
-	    "#03081c"
-	],
-	"REDESIGN_BUTTON_SECONDARY_BORDER": [
-	    "#222959",
-            "#222959",
-            "#222959"
-	],
+        ],
+        "REDESIGN_BUTTON_SECONDARY_BACKGROUND": [
+            "#03081c", // Original dark
+            "#E0E0E0", // Light gray for secondary button on light mode
+            "#03081c"
+        ],
+        "REDESIGN_BUTTON_SECONDARY_BORDER": [
+            "#8B0000", // Maroon border for dark
+            "#B22222", // Maroon border for light
+            "#8B0000"
+        ],
         "SCROLLBAR_AUTO_THUMB": [
-            "#061428",
-            "#061428",
+            "#061428", // Original dark
+            "#C1C1C1", // Gray scrollbar thumb for light mode
             "#061428"
         ],
         "SCROLLBAR_AUTO_TRACK": [
-            "#061428",
-            "#7eb3f0",
+            "#0a1426", // Darker track for dark
+            "#E0E0E0", // Light gray track for light mode
             "#000000"
         ],
         "SCROLLBAR_THIN_THUMB": [
-            "#061428",
-            "#061428",
+            "#061428", // Original dark
+            "#C1C1C1", // Gray scrollbar thumb for light mode
             "#061428"
         ],
         "SCROLLBAR_THIN_TRACK": [
-            "#061428",
-            "#7eb3f0",
+            "#0a1426", // Darker track for dark
+            "#E0E0E0", // Light gray track for light mode
             "#000000"
         ],
-        "STATUS_DANGER_BACKGROUND": [
-            "#fb4934",
-            "#9d0006",
-            "#fb4934"
+        "STATUS_DANGER_BACKGROUND": [ "#fb4934", "#FFCDD2", "#fb4934" ], // Light red bg
+        "STATUS_DANGER_TEXT": [ "#FFFFFF", "#D32F2F", "#FFFFFF" ], // White text on dark red, dark red text on light red
+        "STATUS_POSITIVE_BACKGROUND": [ "#689d6a", "#C8E6C9", "#689d6a" ], // Light green bg
+        "STATUS_POSITIVE_TEXT": [ "#FFFFFF", "#388E3C", "#dcddde" ], // White text on dark green, dark green text on light green
+        "STATUS_WARNING_BACKGROUND": [ "#fab387", "#FFECB3", "#fab387" ], // Light yellow bg
+        "STATUS_WARNING_TEXT": [ "#000000", "#FFA000", "#cc241d" ], // Black text on dark yellow, dark yellow text on light yellow
+        "TYPING_INDICATOR_BG": [
+            "#00000066", // Original dark
+            "#0000001A", // Lighter transparent black for light mode
+            "#00000066"
         ],
-        "STATUS_DANGER_TEXT": [
-            "#83a598",
-            "#076678",
-            "#83a598"
-        ],
-        "STATUS_POSITIVE_BACKGROUND": [
-            "#689d6a",
-            "#427b58",
-            "#689d6a"
-        ],
-        "STATUS_POSITIVE_TEXT": [
-            "#dcddde",
-            "#0a2848",
-            "#dcddde"
-        ],
-        "STATUS_WARNING_BACKGROUND": [
-            "#fab387",
-            "#fab387",
-            "#fab387"
-        ],
-        "STATUS_WARNING_TEXT": [
-            "#fb4934",
-            "#9d0006",
-            "#fb4934"
-        ],
-	"TYPING_INDICATOR_BG": [
-	    "#00000066",
-	    "#00000066",
-	    "#00000066"
-	],
         "TEXTBOX_MARKDOWN_SYNTAX": [
-            "#076678",
-            "#076678",
-            "#076678"
+            "#8B0000", // Maroon for markdown syntax (dark)
+            "#B22222", // Maroon for markdown syntax (light)
+            "#8B0000"
         ],
-        "TEXT_DANGER": [
-            "#fb4934",
-            "#9d0006",
-            "#fb4934"
-        ],
+        "TEXT_DANGER": [ "#fb4934", "#D32F2F", "#fb4934" ], // Danger red text
         "TEXT_LINK": [
-            "#2780E6",
-            "#2780E6",
-            "#2780E6"
+            "#8B0000", // Maroon dark
+            "#B22222", // Maroon light
+            "#8B0000"
         ],
         "TEXT_LINK_LOW_SATURATION": [
-            "#dcddde",
-            "#0a2848",
-            "#dcddde"
+            "#A52A2A", // Softer maroon for dark
+            "#C65B5B", // Softer maroon for light
+            "#A52A2A"
         ],
         "TEXT_MUTED": [
-            "#2678d6",
-            "#2678d6",
-            "#2678d6"
+            "#575a68", // Original dark muted
+            "#AEAEAE", // Lighter gray for muted on light
+            "#575a68"
         ],
         "TEXT_NORMAL": [
-            "#dcddde",
-            "#dcddde",
+            "#dcddde", // Original light text for dark
+            "#2F2F2F", // Dark text for light
             "#dcddde"
         ],
-        "TEXT_POSITIVE": [
-            "#689d6a",
-            "#427b58",
-            "#689d6a"
-        ],
-        "TEXT_WARNING": [
-            "#fb4934",
-            "#9d0006",
-            "#cc241d"
-        ]
+        "TEXT_POSITIVE": [ "#689d6a", "#388E3C", "#689d6a" ], // Positive green text
+        "TEXT_WARNING": [ "#fab387", "#FFA000", "#cc241d" ]  // Warning yellow/orange text
     },
     "rawColors": {
-        "BG_GRADIENT_CRIMSON_MOON_2": "#000000",
-        "PRIMARY_100": "#3789E6",
-        "PRIMARY_130": "#dbeafa",
-        "PRIMARY_200": "#7eb3f0",
-        "PRIMARY_230": "#7eb3f0",
-        "PRIMARY_300": "#3789E6",
-        "PRIMARY_360": "#2780E6",
-        "PRIMARY_400": "#0f4480",
-        "PRIMARY_460": "#061428",
-        "PRIMARY_500": "#114d91",
-        "PRIMARY_560": "#102b47",
-        "PRIMARY_600": "#061428",
-        "PRIMARY_630": "#000000",
-        "PRIMARY_660": "#000000",
-        "PRIMARY_700": "#000000",
-        "PRIMARY_800": "#000000",
-        "PRIMARY_900": "#0a2848",
-        "BLACK_500": "#000000",
-        "BLACK_530": "#000000",
+        "BG_GRADIENT_CRIMSON_MOON_2": "#000000", // Kept as is, usually a special effect
+        "PRIMARY_100": "#B22222", // Light Maroon (used for lighter elements or text on maroon bg)
+        "PRIMARY_130": "#F5F5F5", // Light Gray (general light bg/text)
+        "PRIMARY_200": "#C23B22", // Lighter Maroon (accent variant)
+        "PRIMARY_230": "#C23B22", // Lighter Maroon (accent variant)
+        "PRIMARY_300": "#B22222", // Maroon Light accent
+        "PRIMARY_360": "#8B0000", // Maroon Dark accent
+        "PRIMARY_400": "#6A0000", // Darker Maroon (for shades or borders)
+        "PRIMARY_460": "#061428", // Original Dark (base for dark theme)
+        "PRIMARY_500": "#800000", // Maroon (mid-tone accent)
+        "PRIMARY_560": "#102b47", // Original Dark (secondary base for dark theme)
+        "PRIMARY_600": "#061428", // Original Dark Background
+        "PRIMARY_630": "#04122e", // Darker Original Background
+        "PRIMARY_660": "#03081c", // Darkest Original Background
+        "PRIMARY_700": "#000000", // Black (can be used for text on light, or true black elements)
+        "PRIMARY_800": "#1F1F1F", // Very Dark Gray (light mode text)
+        "PRIMARY_900": "#0a2848", // Original Dark
+        "BLACK_500": "#2F2F2F",  // Dark Gray (used for text in light mode)
+        "BLACK_530": "#000000",  // True Black
         "BLACK_560": "#000000",
         "BLACK_600": "#000000",
         "BLACK_630": "#000000",
@@ -500,37 +348,37 @@
         "BLACK_830": "#000000",
         "BLACK_860": "#000000",
         "BLACK_900": "#000000",
-        "BRAND_230": "#ffffff",
-        "BRAND_260": "#86b4ea",
-        "BRAND_360": "#4b96e7",
-        "BRAND_500": "#2780E6",
-        "BRAND_560": "#3789E6",
-        "RED_400": "#2780E6",
-        "RED_430": "#2780E6",
-        "RED_460": "#2780E6",
-        "GREEN_360": "#689d6a",
-        "WHITE_500": "#dcddde",
-        "YELLOW_300": "#2780E6",
-	"PLUM_20": "#111423",
-	"PLUM_16": "#111533",
-	"PLUM_22": "#0f1428"
+        "BRAND_230": "#FFFFFF",   // White (for light theme brand text/elements)
+        "BRAND_260": "#C23B22",   // Light Maroon accent
+        "BRAND_360": "#B22222",   // Main Light Maroon accent
+        "BRAND_500": "#8B0000",   // Main Dark Maroon accent
+        "BRAND_560": "#800000",   // Mid Dark Maroon accent
+        "RED_400": "#B22222",     // Maroon for 'red' warnings/errors in light mode
+        "RED_430": "#8B0000",     // Maroon for 'red' warnings/errors in dark mode
+        "RED_460": "#6A0000",     // Darker Maroon for 'red' elements
+        "GREEN_360": "#388E3C",   // Green for positive status (light mode text)
+        "WHITE_500": "#dcddde",   // Original light text (dark mode text)
+        "YELLOW_300": "#FFA000",  // Yellow for warnings (light mode text)
+        "PLUM_20": "#111423",    // Original, kept for consistency if used by name
+        "PLUM_16": "#111533",    // Original
+        "PLUM_22": "#0f1428"     // Original
     },
     "background": {
         "url": "https://raw.githubusercontent.com/jamlotrasoiaf/ThemesCorrected/refs/heads/main/ClearVision/Vendetta/dark.jpg",
-	"alpha": 1
+        "alpha": 1
     },
     "plus": {
         "version": 0,
         "customOverlays": true,
         "icons": {
-            "ic_mic_neutral": "#102b47",
-            "ic_mic_muted_neutral": "#102b47",
-            "ic_soundboard":"#102b47",
-            "ic_soundboard_muted": "#102b47",
-            "ic_video": "#102b47",
-            "ic_video_disabled": "#102b47"
+            "ic_mic_neutral": "#102b47", // Dark theme icon color
+            "ic_mic_muted_neutral": "#102b47", // Dark theme icon color
+            "ic_soundboard":"#102b47", // Dark theme icon color
+            "ic_soundboard_muted": "#102b47", // Dark theme icon color
+            "ic_video": "#102b47", // Dark theme icon color
+            "ic_video_disabled": "#102b47" // Dark theme icon color
         },
         "iconpack":"rosiecord-plumpy"
     },
     "spec": 2
-            }
+}
