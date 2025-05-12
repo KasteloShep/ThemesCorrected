@@ -1,6 +1,6 @@
 {
-    "name": "ClearVision v1.2.6 - Auto Black/White Maroon (Tinted BG)",
-    "description": "Clear Vision with auto black/white mode, maroon accents, and mode-adaptive background tint.",
+    "name": "ClearVision v1.2.6 - Auto Black/White (Black/White Tinted BG)",
+    "description": "Clear Vision with auto black/white mode, maroon accents, and black/white background tint.",
     "authors": [
       {
          "name": "Taki_Shiwa, edited by Sunny, modified by Coding Partner",
@@ -16,7 +16,7 @@
         "BACKGROUND_MESSAGE_HOVER": [ "#202020", "#EAEAEA", "#202020" ],
         "BACKGROUND_MOBILE_PRIMARY": [ "#0D0D0D", "#FFFFFF", "#0D0D0D" ],
         "BACKGROUND_MOBILE_SECONDARY": [ "#1A1A1A", "#F5F5F5", "#1A1A1A" ],
-        "BACKGROUND_ACCENT": [ "#8B0000", "#B22222", "#8B0000" ],
+        "BACKGROUND_ACCENT": [ "#000000", "#FFFFFF", "#000000" ],
         "BACKGROUND_MODIFIER_ACCENT": [ "#6A0000", "#C23B22", "#6A0000" ],
         "BACKGROUND_MODIFIER_ACTIVE": [ "#8B00004D", "#B222224D", "#8B00004D" ],
         "BACKGROUND_MODIFIER_HOVER": [ "#2C2C2C", "#E0E0E0", "#2C2C2C" ],
