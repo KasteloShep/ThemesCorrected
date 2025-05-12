@@ -1,6 +1,6 @@
 {
-    "name": "ClearVision v1.2.6 - Auto Black/White Maroon",
-    "description": "Clear Vision with auto black/white mode and maroon accents.",
+    "name": "ClearVision v1.2.6 - Auto Black/White Maroon (Tinted BG)",
+    "description": "Clear Vision with auto black/white mode, maroon accents, and mode-adaptive background tint.",
     "authors": [
       {
          "name": "Taki_Shiwa, edited by Sunny, modified by Coding Partner",
@@ -149,7 +149,8 @@
     },
     "background": {
         "url": "https://raw.githubusercontent.com/jamlotrasoiaf/ThemesCorrected/refs/heads/main/ClearVision/Vendetta/dark.jpg",
-        "alpha": 1
+        "alpha": 1,
+        "accent": true
     },
     "plus": {
         "version": 0,
