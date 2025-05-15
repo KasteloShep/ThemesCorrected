@@ -34,7 +34,7 @@
         "CARD_SECONDARY_BG": [ "#1A1A1A", "#F5F5F5", "#1A1A1A" ],
         "CHANNELS_DEFAULT": [ "#8A8A8A", "#6E6E6E", "#8A8A8A" ],
         "CHANNEL_ICON": [ "#8B000099", "#B2222299", "#8B000099" ],
-        "CHAT_BACKGROUND": [ "transparent", "transparent", "transparent" ],
+        "CHAT_BACKGROUND": [ "transparent", "D8BFD8AA", "transparent" ],
         "CHAT_SWIPE_TO_REPLY_BACKGROUND": [ "#1E1E1E", "#EAEAEA", "#1E1E1E" ],
         "CHANNEL_TEXT_AREA_PLACEHOLDER":  [ "#8A8A8A", "#707070", "#8A8A8A" ],
         "CHANNELTEXTAREA_BACKGROUND": [ "#1E1E1E", "#FFFFFF", "#1E1E1E" ],
