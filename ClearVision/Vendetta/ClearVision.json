@@ -97,7 +97,7 @@
         "TEXT_LINK": [ "#8B0000", "#B22222", "#8B0000" ],
         "TEXT_LINK_LOW_SATURATION": [ "#A52A2A", "#C65B5B", "#A52A2A" ],
         "TEXT_MUTED": [ "#8A8A8A", "#AEAEAE", "#8A8A8A" ],
-        "TEXT_NORMAL": [ "#E0E0E0", "#FFFFFF", "#E0E0E0" ],
+        "TEXT_NORMAL": [ "#E0E0E0", "#FF00FF", "#E0E0E0" ],
         "TEXT_POSITIVE": [ "#50C878", "#388E3C", "#50C878" ],
         "TEXT_WARNING": [ "#FFD700", "#FFA000", "#cc241d" ]
     },
